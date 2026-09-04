@@ -2,8 +2,11 @@ name: KAT Transit Realtime Collector
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Triggered every 5 minutes
-  workflow_dispatch:      # Manual run button in GitHub UI
+    - cron: '*/5 * * * *'  # Every 5 minutes
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   collect-kat-data:
@@ -22,15 +25,13 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install requests gtfs-realtime-bindings protobuf
 
-      - name: Fetch KAT Vehicle & Delay Data
+      - name: Fetch KAT GTFS-RT JSON Snapshots
         run: python collector.py
 
-      - name: Commit and Push Parquet Updates
-        run: |
-          git config --global user.name "kat-data-bot"
-          git config --global user.email "kat-data-bot@users.noreply.github.com"
-          git add data/
-          git commit -m "Automated KAT GTFS-RT update [skip ci]" || exit 0
-          git push
+      - name: Commit and Push Clean JSON Diffs
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Automated KAT GTFS-RT update [skip ci]"
+          file_pattern: "data/*.json"
