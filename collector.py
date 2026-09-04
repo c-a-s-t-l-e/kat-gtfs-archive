@@ -1,12 +1,13 @@
+import json
 import os
 import requests
-import pandas as pd
 from datetime import datetime, timezone
 from google.transit import gtfs_realtime_pb2
 
-# KAT GTFS-RT Public Endpoints (Syncromatics)
+# KAT GTFS-RT Endpoints
 VEHICLE_POS_URL = "https://Knoxville.Syncromatics.com/GTFS-rt/VehiclePositions"
 TRIP_UPDATES_URL = "https://Knoxville.Syncromatics.com/GTFS-rt/TripUpdates"
+ALERTS_URL = "https://Knoxville.Syncromatics.com/GTFS-rt/Alerts"
 
 
 def fetch_protobuf(url: str) -> gtfs_realtime_pb2.FeedMessage:
@@ -17,64 +18,68 @@ def fetch_protobuf(url: str) -> gtfs_realtime_pb2.FeedMessage:
     return feed
 
 
-def collect_vehicle_positions(fetch_time: datetime, today_str: str):
-    """Parses vehicle GPS, bearing, speed, and active trip assignments."""
+def save_json_snapshot(data: list | dict, filepath: str):
+    """Saves formatted, key-sorted JSON so Git diffs stay clean and minimal."""
+    os.makedirs(os.path.dirname(filepath), exist_ok=True)
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, sort_keys=True)
+
+
+def collect_vehicle_positions(fetch_time: str) -> list[dict]:
     try:
         feed = fetch_protobuf(VEHICLE_POS_URL)
     except Exception as e:
         print(f"[Error] Failed to fetch Vehicle Positions: {e}")
-        return
+        return []
 
     records = []
     for entity in feed.entity:
         if entity.HasField("vehicle"):
             v = entity.vehicle
+            
             timestamp = (
-                datetime.fromtimestamp(v.timestamp, tz=timezone.utc)
-                if v.timestamp
+                datetime.fromtimestamp(v.timestamp, tz=timezone.utc).isoformat()
+                if v.timestamp > 0
                 else fetch_time
             )
 
+            status_str = (
+                gtfs_realtime_pb2.VehiclePosition.VehicleStopStatus.Name(v.current_status)
+                if v.HasField("current_status")
+                else None
+            )
+
             records.append({
-                "fetch_timestamp": fetch_time,
-                "msg_timestamp": timestamp,
                 "vehicle_id": v.vehicle.id if v.HasField("vehicle") else None,
                 "vehicle_label": v.vehicle.label if v.HasField("vehicle") else None,
                 "trip_id": v.trip.trip_id if v.HasField("trip") else None,
                 "route_id": v.trip.route_id if v.HasField("trip") else None,
-                "latitude": v.position.latitude if v.HasField("position") else None,
-                "longitude": v.position.longitude if v.HasField("position") else None,
+                "msg_timestamp": timestamp,
+                "latitude": round(v.position.latitude, 6) if v.HasField("position") else None,
+                "longitude": round(v.position.longitude, 6) if v.HasField("position") else None,
                 "bearing": v.position.bearing if v.HasField("position") else None,
-                "speed_mph": (v.position.speed * 2.23694)
-                if v.HasField("position") and v.position.speed
-                else None,
-                "current_stop_sequence": v.current_stop_sequence,
-                "current_status": v.current_status,
+                "speed_mph": round(v.position.speed * 2.23694, 2) if v.HasField("position") and v.position.HasField("speed") else None,
+                "current_stop_sequence": v.current_stop_sequence if v.HasField("current_stop_sequence") else None,
+                "current_status": status_str,
             })
 
-    if records:
-        save_to_parquet(
-            records,
-            folder="data/vehicles",
-            filename=f"kat_vehicles_{today_str}.parquet",
-            dedup_cols=["msg_timestamp", "vehicle_id"],
-        )
+    # Sort deterministically by vehicle_id so array order never breaks Git diffs
+    return sorted(records, key=lambda x: str(x.get("vehicle_id", "")))
 
 
-def collect_trip_delays(fetch_time: datetime, today_str: str):
-    """Parses stop-by-stop delay seconds and classifies schedule adherence."""
+def collect_trip_delays(fetch_time: str) -> list[dict]:
     try:
         feed = fetch_protobuf(TRIP_UPDATES_URL)
     except Exception as e:
         print(f"[Error] Failed to fetch Trip Updates: {e}")
-        return
+        return []
 
     records = []
     for entity in feed.entity:
         if entity.HasField("trip_update"):
             tu = entity.trip_update
-            trip_id = tu.trip.trip_id
-            route_id = tu.trip.route_id
+            trip_id = tu.trip.trip_id if tu.HasField("trip") else None
+            route_id = tu.trip.route_id if tu.HasField("trip") else None
             vehicle_id = tu.vehicle.id if tu.HasField("vehicle") else None
 
             for stu in tu.stop_time_update:
@@ -85,7 +90,6 @@ def collect_trip_delays(fetch_time: datetime, today_str: str):
                     delay_sec = stu.departure.delay
 
                 if delay_sec is not None:
-                    # Classify status based on industry-standard window (±60 seconds)
                     if delay_sec > 60:
                         status = "LATE"
                     elif delay_sec < -60:
@@ -94,47 +98,74 @@ def collect_trip_delays(fetch_time: datetime, today_str: str):
                         status = "ON_TIME"
 
                     records.append({
-                        "fetch_timestamp": fetch_time,
                         "trip_id": trip_id,
+                        "stop_sequence": stu.stop_sequence,
+                        "stop_id": stu.stop_id,
                         "route_id": route_id,
                         "vehicle_id": vehicle_id,
-                        "stop_id": stu.stop_id,
-                        "stop_sequence": stu.stop_sequence,
                         "delay_seconds": delay_sec,
                         "delay_minutes": round(delay_sec / 60.0, 2),
                         "status": status,
                     })
 
-    if records:
-        save_to_parquet(
-            records,
-            folder="data/delays",
-            filename=f"kat_delays_{today_str}.parquet",
-            dedup_cols=["fetch_timestamp", "trip_id", "stop_id"],
-        )
+    # Sort deterministically by trip_id and stop_sequence
+    return sorted(records, key=lambda x: (str(x.get("trip_id", "")), x.get("stop_sequence", 0)))
 
 
-def save_to_parquet(records: list, folder: str, filename: str, dedup_cols: list):
-    """Helper function to load existing Parquet, merge, deduplicate, and overwrite."""
-    os.makedirs(folder, exist_ok=True)
-    out_path = os.path.join(folder, filename)
-    new_df = pd.DataFrame(records)
+def collect_alerts() -> list[dict]:
+    try:
+        feed = fetch_protobuf(ALERTS_URL)
+    except Exception as e:
+        print(f"[Error] Failed to fetch Alerts: {e}")
+        return []
 
-    if os.path.exists(out_path):
-        existing_df = pd.read_parquet(out_path)
-        combined_df = pd.concat([existing_df, new_df], ignore_index=True)
-        combined_df.drop_duplicates(subset=dedup_cols, inplace=True)
-        combined_df.to_parquet(out_path, index=False, compression="snappy")
-    else:
-        new_df.to_parquet(out_path, index=False, compression="snappy")
+    records = []
+    for entity in feed.entity:
+        if entity.HasField("alert"):
+            a = entity.alert
+            header = a.header_text.translation[0].text if a.header_text.translation else None
+            description = a.description_text.translation[0].text if a.description_text.translation else None
+            cause = gtfs_realtime_pb2.Alert.Cause.Name(a.cause) if a.cause else None
+            effect = gtfs_realtime_pb2.Alert.Effect.Name(a.effect) if a.effect else None
 
-    print(f"[{folder}] Recorded {len(records)} entries -> {out_path}")
+            if a.informed_entity:
+                for ie in a.informed_entity:
+                    records.append({
+                        "alert_id": entity.id,
+                        "route_id": ie.route_id if ie.HasField("route_id") else None,
+                        "stop_id": ie.stop_id if ie.HasField("stop_id") else None,
+                        "cause": cause,
+                        "effect": effect,
+                        "header": header,
+                        "description": description,
+                    })
+            else:
+                records.append({
+                    "alert_id": entity.id,
+                    "route_id": None,
+                    "stop_id": None,
+                    "cause": cause,
+                    "effect": effect,
+                    "header": header,
+                    "description": description,
+                })
+
+    return sorted(records, key=lambda x: str(x.get("alert_id", "")))
 
 
 if __name__ == "__main__":
-    now = datetime.now(timezone.utc)
-    date_key = now.strftime("%Y_%m_%d")
+    now_iso = datetime.now(timezone.utc).isoformat()
+    print(f"Executing KAT GTFS-RT JSON Snapshot at {now_iso}...")
 
-    print(f"Running KAT GTFS-RT Extractor at {now.isoformat()}...")
-    collect_vehicle_positions(now, date_key)
-    collect_trip_delays(now, date_key)
+    vehicles = collect_vehicle_positions(now_iso)
+    delays = collect_trip_delays(now_iso)
+    alerts = collect_alerts()
+
+    if vehicles:
+        save_json_snapshot(vehicles, "data/vehicle_positions.json")
+    if delays:
+        save_json_snapshot(delays, "data/trip_updates.json")
+    if alerts:
+        save_json_snapshot(alerts, "data/alerts.json")
+
+    print(f"Successfully recorded snapshot ({len(vehicles)} vehicles, {len(delays)} delays, {len(alerts)} alerts).")
