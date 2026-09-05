@@ -126,81 +126,9 @@
     "stop_id": "7025371"
   },
   {
-    "alert_id": "70165",
-    "cause": "CONSTRUCTION",
-    "description": "Due to construction, Clinch at 11th to 12th is closed. \n\nOutbind from Church, left on Locust, right on Cumberland, right on 16th, left on Clinch to the regular route.\n\nInbound from Cumberland into Main Street to Knoxville Station. ",
-    "effect": "DETOUR",
-    "header": "Detour for Route 42: Hospital",
-    "route_id": "5577",
-    "stop_id": null
-  },
-  {
-    "alert_id": "70168",
-    "cause": "OTHER_CAUSE",
-    "description": "Due to closure of Main Street and sections of Church Ave, Route 22 will be detoured on 9/4 beginning at 6 pm.\n\nOutbound from Knoxville Station, left on Hall of Fame, left on Summit Hill, right on Broadway, to the regular route.\n\nInbound from Broadway, left on Summit Hill, right on Hall of Fame to Knoxville Station.",
-    "effect": "DETOUR",
-    "header": "Detour for Route 22: Broadway",
-    "route_id": "5567",
-    "stop_id": null
-  },
-  {
-    "alert_id": "70183",
-    "cause": "OTHER_CAUSE",
-    "description": "Due to the closure of Main Street and Church Ave, Routes 10, 11, 15, and 17 will be detoured on 9/4 from 6 PM to 9 PM.\n\nFrom Knoxville Station, left on Hall of Fame, left on Summit Hill, left on Locust, right on Cumberland, to the regular route. \n\nFrom Cumberland, left on Henley, right on Summit Hill, right on Hall of Fame, to Knoxville Station.",
-    "effect": "DETOUR",
-    "header": "Detour for Routes 10, 11, 15, 17",
-    "route_id": "5558",
-    "stop_id": null
-  },
-  {
-    "alert_id": "70183",
-    "cause": "OTHER_CAUSE",
-    "description": "Due to the closure of Main Street and Church Ave, Routes 10, 11, 15, and 17 will be detoured on 9/4 from 6 PM to 9 PM.\n\nFrom Knoxville Station, left on Hall of Fame, left on Summit Hill, left on Locust, right on Cumberland, to the regular route. \n\nFrom Cumberland, left on Henley, right on Summit Hill, right on Hall of Fame, to Knoxville Station.",
-    "effect": "DETOUR",
-    "header": "Detour for Routes 10, 11, 15, 17",
-    "route_id": "5559",
-    "stop_id": null
-  },
-  {
-    "alert_id": "70183",
-    "cause": "OTHER_CAUSE",
-    "description": "Due to the closure of Main Street and Church Ave, Routes 10, 11, 15, and 17 will be detoured on 9/4 from 6 PM to 9 PM.\n\nFrom Knoxville Station, left on Hall of Fame, left on Summit Hill, left on Locust, right on Cumberland, to the regular route. \n\nFrom Cumberland, left on Henley, right on Summit Hill, right on Hall of Fame, to Knoxville Station.",
-    "effect": "DETOUR",
-    "header": "Detour for Routes 10, 11, 15, 17",
-    "route_id": "5563",
-    "stop_id": null
-  },
-  {
-    "alert_id": "70183",
-    "cause": "OTHER_CAUSE",
-    "description": "Due to the closure of Main Street and Church Ave, Routes 10, 11, 15, and 17 will be detoured on 9/4 from 6 PM to 9 PM.\n\nFrom Knoxville Station, left on Hall of Fame, left on Summit Hill, left on Locust, right on Cumberland, to the regular route. \n\nFrom Cumberland, left on Henley, right on Summit Hill, right on Hall of Fame, to Knoxville Station.",
-    "effect": "DETOUR",
-    "header": "Detour for Routes 10, 11, 15, 17",
-    "route_id": "6347",
-    "stop_id": null
-  },
-  {
     "alert_id": "70188",
     "cause": "OTHER_CAUSE",
     "description": "Due to closure of Clinch Ave at World's Fair Park Drive, Route 42 will be detoured on 9/6.\n\nOutbound from Church Ave, left on Locust, right on Cumberland, right on 16th, left on Clinch, to the regular route.\n\nInbound from Cumberland into Main, left on State, right on Church to Knoxville Station. ",
-    "effect": "DETOUR",
-    "header": "Detour for Route 42: UT Medical Centers",
-    "route_id": "5577",
-    "stop_id": null
-  },
-  {
-    "alert_id": "70189",
-    "cause": "OTHER_CAUSE",
-    "description": "Due to the closure of Main Street and sections of Church Ave, Route 45 will be detoured on 9/6 from 6 PM to 9 PM. \n\nOutbound from Knoxville Station, left on Hall of Fame, left on Summit Hill, left on Locust, right on Cumberland, to the regular route. \n\nInbound: continue on Henley, right on Summit Hill, right on Hall of Fame, to Knoxville Station. ",
-    "effect": "DETOUR",
-    "header": "Detour for Route 45: Vestal",
-    "route_id": "5579",
-    "stop_id": null
-  },
-  {
-    "alert_id": "70190",
-    "cause": "OTHER_CAUSE",
-    "description": "Due to the closure of Main Street and sections of Church Ave, Route 42 will be detoured on 9/6 from 6 PM to 9 PM. \n\nOutbound from Knoxville Station, left on Church, left on Hall of Fame, Left on Summit Hill, Left on Locust, Right on Clinch to the regular route. \n\nInbound from Clinch, Left on Henley, Right on Summit Hill, Right on Hall of Fame to Knoxville Station. ",
     "effect": "DETOUR",
     "header": "Detour for Route 42: UT Medical Centers",
     "route_id": "5577",
