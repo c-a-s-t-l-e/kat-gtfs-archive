@@ -1,5 +1,4 @@
-name: GTFS-RT Collector
-# trigger workflow
+name: GTFS-RT Collector v2
 
 on:
   schedule:
