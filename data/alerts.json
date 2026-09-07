@@ -124,14 +124,5 @@
     "header": "Detour for Route 40: South Knoxville ",
     "route_id": null,
     "stop_id": "7025371"
-  },
-  {
-    "alert_id": "70188",
-    "cause": "OTHER_CAUSE",
-    "description": "Due to closure of Clinch Ave at World's Fair Park Drive, Route 42 will be detoured on 9/6.\n\nOutbound from Church Ave, left on Locust, right on Cumberland, right on 16th, left on Clinch, to the regular route.\n\nInbound from Cumberland into Main, left on State, right on Church to Knoxville Station. ",
-    "effect": "DETOUR",
-    "header": "Detour for Route 42: UT Medical Centers",
-    "route_id": "5577",
-    "stop_id": null
   }
 ]
