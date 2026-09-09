@@ -1,32 +1,5 @@
 [
   {
-    "alert_id": "67748",
-    "cause": "CONSTRUCTION",
-    "description": "Due to the Burlington Streetscape project, MLK Jr. Avenue at the Kirkwood Supestop is closed. Route 31 Magnolia is on a long-term detour until further notice. \n\nOutbound from Magnolia Avenue, right on Kirkwood Street, left on Holston Drive, right on Prosser Road, left on MLK Jr., to the regular route.\n\nInbound from MLK Jr., right on Prosser Road, left on Holston Drive, right on Kirkwood Street, left on Magnolia Avenue to the regular route.",
-    "effect": "DETOUR",
-    "header": "Ling-Term Detour for Route 31: Magnolia ",
-    "route_id": "5571",
-    "stop_id": null
-  },
-  {
-    "alert_id": "67748",
-    "cause": "CONSTRUCTION",
-    "description": "Due to the Burlington Streetscape project, MLK Jr. Avenue at the Kirkwood Supestop is closed. Route 31 Magnolia is on a long-term detour until further notice. \n\nOutbound from Magnolia Avenue, right on Kirkwood Street, left on Holston Drive, right on Prosser Road, left on MLK Jr., to the regular route.\n\nInbound from MLK Jr., right on Prosser Road, left on Holston Drive, right on Kirkwood Street, left on Magnolia Avenue to the regular route.",
-    "effect": "DETOUR",
-    "header": "Ling-Term Detour for Route 31: Magnolia ",
-    "route_id": null,
-    "stop_id": "7048796"
-  },
-  {
-    "alert_id": "67748",
-    "cause": "CONSTRUCTION",
-    "description": "Due to the Burlington Streetscape project, MLK Jr. Avenue at the Kirkwood Supestop is closed. Route 31 Magnolia is on a long-term detour until further notice. \n\nOutbound from Magnolia Avenue, right on Kirkwood Street, left on Holston Drive, right on Prosser Road, left on MLK Jr., to the regular route.\n\nInbound from MLK Jr., right on Prosser Road, left on Holston Drive, right on Kirkwood Street, left on Magnolia Avenue to the regular route.",
-    "effect": "DETOUR",
-    "header": "Ling-Term Detour for Route 31: Magnolia ",
-    "route_id": null,
-    "stop_id": "7048795"
-  },
-  {
     "alert_id": "68121",
     "cause": "OTHER_CAUSE",
     "description": "While Knox County schools are in session, Route 40, South Knoxville, will be on a long-term detour, for the 2:15 trip, INBOUND ONLY, Monday through Friday.\n\nInbound from Moody Avenue, continue straight into Sevierville Pike, left on Compton Street, left on Haywood Avenue, left on Cottrell Street, left on Wynn, right on Moody Avenue to the regular route.",
@@ -124,23 +97,5 @@
     "header": "Detour for Route 40: South Knoxville ",
     "route_id": null,
     "stop_id": "7025371"
-  },
-  {
-    "alert_id": "70411",
-    "cause": "UNKNOWN_CAUSE",
-    "description": "Due to the closure of Willow Ave, Route 1 will be on detour beginning at 7 PM through 6 AM on 9/9. \n\nThere will be no service to Covenant Health Park. \n\nThe route will travel down Central to Depot.",
-    "effect": "UNKNOWN_EFFECT",
-    "header": "Detour for Route 1: Downtown Connector",
-    "route_id": "6346",
-    "stop_id": null
-  },
-  {
-    "alert_id": "70411",
-    "cause": "UNKNOWN_CAUSE",
-    "description": "Due to the closure of Willow Ave, Route 1 will be on detour beginning at 7 PM through 6 AM on 9/9. \n\nThere will be no service to Covenant Health Park. \n\nThe route will travel down Central to Depot.",
-    "effect": "UNKNOWN_EFFECT",
-    "header": "Detour for Route 1: Downtown Connector",
-    "route_id": null,
-    "stop_id": "10878973"
   }
 ]
