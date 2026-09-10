@@ -97,5 +97,14 @@
     "header": "Detour for Route 40: South Knoxville ",
     "route_id": null,
     "stop_id": "7025371"
+  },
+  {
+    "alert_id": "70571",
+    "cause": "CONSTRUCTION",
+    "description": "Due to the closure of Clinch Ave between 20th and 21st Streets, Route 42 will be on detour from 6 AM to 4 PM. \n\nOutbound from Clinch, left on 20th, then right on Cumberland to the regular route. \n\nInbound from Cumberland, left on 20th, right on Clinch, to the regular route. \n\nPassengers, please board at the corner of Clinch and 20th. ",
+    "effect": "DETOUR",
+    "header": "Detour for Route 42: UT Hospital",
+    "route_id": "5577",
+    "stop_id": null
   }
 ]
