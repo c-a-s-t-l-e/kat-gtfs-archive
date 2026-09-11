@@ -97,5 +97,23 @@
     "header": "Detour for Route 40: South Knoxville ",
     "route_id": null,
     "stop_id": "7025371"
+  },
+  {
+    "alert_id": "70699",
+    "cause": "OTHER_CAUSE",
+    "description": "Route 1 will be on detour from 9 AM until the end of service on 9/12 due to the closure of W Depot Ave for the Punk Rock Flea Market.\n\nThose attending the event can exit at Magnolia and Central St and walk down to Depot Ave.\n\nOutbound is on the regular route. \n\nInbound\nFrom Magnolia\nLeft on Central\nLeft on Fifth\nLeft on Gay \nTo Regular Route",
+    "effect": "DETOUR",
+    "header": "Detour for Route 1: Downtown Connector",
+    "route_id": "6346",
+    "stop_id": null
+  },
+  {
+    "alert_id": "70699",
+    "cause": "OTHER_CAUSE",
+    "description": "Route 1 will be on detour from 9 AM until the end of service on 9/12 due to the closure of W Depot Ave for the Punk Rock Flea Market.\n\nThose attending the event can exit at Magnolia and Central St and walk down to Depot Ave.\n\nOutbound is on the regular route. \n\nInbound\nFrom Magnolia\nLeft on Central\nLeft on Fifth\nLeft on Gay \nTo Regular Route",
+    "effect": "DETOUR",
+    "header": "Detour for Route 1: Downtown Connector",
+    "route_id": null,
+    "stop_id": "8247823"
   }
 ]
