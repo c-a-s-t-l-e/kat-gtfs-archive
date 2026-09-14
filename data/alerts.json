@@ -97,5 +97,32 @@
     "header": "Detour for Route 40: South Knoxville ",
     "route_id": null,
     "stop_id": "7025371"
+  },
+  {
+    "alert_id": "70851",
+    "cause": "CONSTRUCTION",
+    "description": "Route 16 will be on a detour from 8:30 AM to 4:30 PM daily, beginning Monday, 9/14, through Friday, 9/18. This is due to the closure of Fifth Ave between Gay St and Williams.\n\nOutbound\nFrom Fifth Ave\nLeft on Central\nRight on Magnolia\nRight on Gay\nLeft on Fifth\nTo Regular Route\n\nInbound\nFrom Fifth\nRight on Gay\nLeft on Magnolia\nRight on Hall of Fame\nTo Platform ",
+    "effect": "DETOUR",
+    "header": "Detour for Route 16: Middlebrook/Cedar Bluff",
+    "route_id": "5562",
+    "stop_id": null
+  },
+  {
+    "alert_id": "70851",
+    "cause": "CONSTRUCTION",
+    "description": "Route 16 will be on a detour from 8:30 AM to 4:30 PM daily, beginning Monday, 9/14, through Friday, 9/18. This is due to the closure of Fifth Ave between Gay St and Williams.\n\nOutbound\nFrom Fifth Ave\nLeft on Central\nRight on Magnolia\nRight on Gay\nLeft on Fifth\nTo Regular Route\n\nInbound\nFrom Fifth\nRight on Gay\nLeft on Magnolia\nRight on Hall of Fame\nTo Platform ",
+    "effect": "DETOUR",
+    "header": "Detour for Route 16: Middlebrook/Cedar Bluff",
+    "route_id": null,
+    "stop_id": "7010943"
+  },
+  {
+    "alert_id": "70851",
+    "cause": "CONSTRUCTION",
+    "description": "Route 16 will be on a detour from 8:30 AM to 4:30 PM daily, beginning Monday, 9/14, through Friday, 9/18. This is due to the closure of Fifth Ave between Gay St and Williams.\n\nOutbound\nFrom Fifth Ave\nLeft on Central\nRight on Magnolia\nRight on Gay\nLeft on Fifth\nTo Regular Route\n\nInbound\nFrom Fifth\nRight on Gay\nLeft on Magnolia\nRight on Hall of Fame\nTo Platform ",
+    "effect": "DETOUR",
+    "header": "Detour for Route 16: Middlebrook/Cedar Bluff",
+    "route_id": null,
+    "stop_id": "7010412"
   }
 ]
