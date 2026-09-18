@@ -169,5 +169,41 @@
     "header": "Detour for Route 12: Western Ave",
     "route_id": null,
     "stop_id": "7010443"
+  },
+  {
+    "alert_id": "71179",
+    "cause": "OTHER_CAUSE",
+    "description": "Due to the UTK Football Game, Route 15 will be on detour beginning at approximately 4:45 pm. \n\nOutbound from Platform, left onto Hall of Fame, left onto Summit Hill, into Western Ave and the regular route. \n\nInbound from Western Ave, into Summit Hill Drive, right onto Hall of Fame Drive, to Knoxville Station.",
+    "effect": "DETOUR",
+    "header": "Detour for Route 15: Woodland Crosstown",
+    "route_id": "6347",
+    "stop_id": null
+  },
+  {
+    "alert_id": "71180",
+    "cause": "OTHER_CAUSE",
+    "description": "Due to the UTK Football Game, Route 22 will be on detour beginning at approximately 4:45 pm. \n\nOutbound from Hall of Fame Drive, left onto Summit Hill Drive, right onto Broadway to the regular route. \n\nInbound from Broadway, left onto Summit Hill Drive, right onto Hall of Fame Drive, to Knoxville Station. ",
+    "effect": "DETOUR",
+    "header": "Detour for Route 22: Broadway",
+    "route_id": "5567",
+    "stop_id": null
+  },
+  {
+    "alert_id": "71181",
+    "cause": "OTHER_CAUSE",
+    "description": "Due to the UTK Football Game, Route 42 will be on a detour beginning at approximately 4:45 pm. \n\nOutbound from Church Ave, turn left on Locust Street, turn right on Cumberland Ave, then turn left on Hwy 129 to rejoin the regular route. \n\nInbound from Alcoa Hwy, exit to Kingston Pike/Cumberland, right onto Cumberland Ave into Main Street, left on State Street, right on Church to Knoxville Station.\n\nIf the Alcoa Hwy ramp is closed, an alternative route of I40E will be taken.",
+    "effect": "DETOUR",
+    "header": "Detour for Route 42: Fort Sanders/UT Medical Centers",
+    "route_id": "5577",
+    "stop_id": null
+  },
+  {
+    "alert_id": "71184",
+    "cause": "OTHER_CAUSE",
+    "description": "Due to UTK Football Games, Route 45 will be on detour beginning at approximately 4:45 pm. \n\nOutbound from Church Ave, left on Gay Street, right on Cumberland Ave, left on Henley to the regular route. \n\nInbound from Henley, right on Main Street, left on State Street, right on Church Avenue,  to Knoxville Station. ",
+    "effect": "DETOUR",
+    "header": "Detour for Route 45: Vestal ",
+    "route_id": "5579",
+    "stop_id": null
   }
 ]
