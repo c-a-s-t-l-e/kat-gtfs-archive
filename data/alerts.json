@@ -36,15 +36,6 @@
     "stop_id": "7025369"
   },
   {
-    "alert_id": "68436",
-    "cause": "CONSTRUCTION",
-    "description": "Due to construction, Route 32 will be on a long-term detour. \n\nThe outbound routing will be as follows:\nFrom Oakland, left onto Ashland, right onto Andes, right onto MLK, left onto Lakeside, right onto Magnolia, right onto Prosser, right onto Holston/Kirkwood. \n\nThe inbound trip will be as follows: From Kirkwood, left on Magnolia, left on Lakeside, left on Andes, left on Ashland, right on Oakland, to the regular route. ",
-    "effect": "DETOUR",
-    "header": "Detour for Route 32: Dandridge Ave",
-    "route_id": "5572",
-    "stop_id": null
-  },
-  {
     "alert_id": "69778",
     "cause": "UNKNOWN_CAUSE",
     "description": "Due to construction on Sevier at McClung, Route 40 will be on a long-term detour until September 25.\n\nOutbound from Sevier, left on Wynn, left on Moody to the regular route.\n\nInbound from Moody, right on Wynn, right on Sevier, to the regular route.\n\nPassengers, please wait for the bus at the corner of Sevier and Wynn or Moody and Davenport. ",
@@ -97,33 +88,6 @@
     "header": "Detour for Route 40: South Knoxville ",
     "route_id": null,
     "stop_id": "7025371"
-  },
-  {
-    "alert_id": "70851",
-    "cause": "CONSTRUCTION",
-    "description": "Route 16 will be on a detour from 8:30 AM to 4:30 PM daily, beginning Monday, 9/14, through Friday, 9/18. This is due to the closure of Fifth Ave between Gay St and Williams.\n\nOutbound\nFrom Fifth Ave\nLeft on Central\nRight on Magnolia\nRight on Gay\nLeft on Fifth\nTo Regular Route\n\nInbound\nFrom Fifth\nRight on Gay\nLeft on Magnolia\nRight on Hall of Fame\nTo Platform ",
-    "effect": "DETOUR",
-    "header": "Detour for Route 16: Middlebrook/Cedar Bluff",
-    "route_id": "5562",
-    "stop_id": null
-  },
-  {
-    "alert_id": "70851",
-    "cause": "CONSTRUCTION",
-    "description": "Route 16 will be on a detour from 8:30 AM to 4:30 PM daily, beginning Monday, 9/14, through Friday, 9/18. This is due to the closure of Fifth Ave between Gay St and Williams.\n\nOutbound\nFrom Fifth Ave\nLeft on Central\nRight on Magnolia\nRight on Gay\nLeft on Fifth\nTo Regular Route\n\nInbound\nFrom Fifth\nRight on Gay\nLeft on Magnolia\nRight on Hall of Fame\nTo Platform ",
-    "effect": "DETOUR",
-    "header": "Detour for Route 16: Middlebrook/Cedar Bluff",
-    "route_id": null,
-    "stop_id": "7010943"
-  },
-  {
-    "alert_id": "70851",
-    "cause": "CONSTRUCTION",
-    "description": "Route 16 will be on a detour from 8:30 AM to 4:30 PM daily, beginning Monday, 9/14, through Friday, 9/18. This is due to the closure of Fifth Ave between Gay St and Williams.\n\nOutbound\nFrom Fifth Ave\nLeft on Central\nRight on Magnolia\nRight on Gay\nLeft on Fifth\nTo Regular Route\n\nInbound\nFrom Fifth\nRight on Gay\nLeft on Magnolia\nRight on Hall of Fame\nTo Platform ",
-    "effect": "DETOUR",
-    "header": "Detour for Route 16: Middlebrook/Cedar Bluff",
-    "route_id": null,
-    "stop_id": "7010412"
   },
   {
     "alert_id": "71160",
