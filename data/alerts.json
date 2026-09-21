@@ -38,7 +38,7 @@
   {
     "alert_id": "69778",
     "cause": "UNKNOWN_CAUSE",
-    "description": "Due to construction on Sevier at McClung, Route 40 will be on a long-term detour until September 25.\n\nOutbound from Sevier, left on Wynn, left on Moody to the regular route.\n\nInbound from Moody, right on Wynn, right on Sevier, to the regular route.\n\nPassengers, please wait for the bus at the corner of Sevier and Wynn or Moody and Davenport. ",
+    "description": "Due to construction on Sevier Ave from Earl Ave to Trotter Ave, Route 40 will be on detour. \n\nOutbound from South Haven, turn right on Earl Ave, right on Sevier Ave, to the regular route. \n\nInbound from Sevier Ave, left on Earl St, left on South Haven, to the regular route.\n\nPassengers, please board at the corner of Earl and Sevier Ave. ",
     "effect": "UNKNOWN_EFFECT",
     "header": "Detour for Route 40: South Knoxville ",
     "route_id": "5575",
@@ -47,47 +47,38 @@
   {
     "alert_id": "69778",
     "cause": "UNKNOWN_CAUSE",
-    "description": "Due to construction on Sevier at McClung, Route 40 will be on a long-term detour until September 25.\n\nOutbound from Sevier, left on Wynn, left on Moody to the regular route.\n\nInbound from Moody, right on Wynn, right on Sevier, to the regular route.\n\nPassengers, please wait for the bus at the corner of Sevier and Wynn or Moody and Davenport. ",
+    "description": "Due to construction on Sevier Ave from Earl Ave to Trotter Ave, Route 40 will be on detour. \n\nOutbound from South Haven, turn right on Earl Ave, right on Sevier Ave, to the regular route. \n\nInbound from Sevier Ave, left on Earl St, left on South Haven, to the regular route.\n\nPassengers, please board at the corner of Earl and Sevier Ave. ",
     "effect": "UNKNOWN_EFFECT",
     "header": "Detour for Route 40: South Knoxville ",
     "route_id": null,
-    "stop_id": "7025184"
+    "stop_id": "7025182"
   },
   {
     "alert_id": "69778",
     "cause": "UNKNOWN_CAUSE",
-    "description": "Due to construction on Sevier at McClung, Route 40 will be on a long-term detour until September 25.\n\nOutbound from Sevier, left on Wynn, left on Moody to the regular route.\n\nInbound from Moody, right on Wynn, right on Sevier, to the regular route.\n\nPassengers, please wait for the bus at the corner of Sevier and Wynn or Moody and Davenport. ",
+    "description": "Due to construction on Sevier Ave from Earl Ave to Trotter Ave, Route 40 will be on detour. \n\nOutbound from South Haven, turn right on Earl Ave, right on Sevier Ave, to the regular route. \n\nInbound from Sevier Ave, left on Earl St, left on South Haven, to the regular route.\n\nPassengers, please board at the corner of Earl and Sevier Ave. ",
     "effect": "UNKNOWN_EFFECT",
     "header": "Detour for Route 40: South Knoxville ",
     "route_id": null,
-    "stop_id": "7025185"
+    "stop_id": "7025373"
   },
   {
     "alert_id": "69778",
     "cause": "UNKNOWN_CAUSE",
-    "description": "Due to construction on Sevier at McClung, Route 40 will be on a long-term detour until September 25.\n\nOutbound from Sevier, left on Wynn, left on Moody to the regular route.\n\nInbound from Moody, right on Wynn, right on Sevier, to the regular route.\n\nPassengers, please wait for the bus at the corner of Sevier and Wynn or Moody and Davenport. ",
+    "description": "Due to construction on Sevier Ave from Earl Ave to Trotter Ave, Route 40 will be on detour. \n\nOutbound from South Haven, turn right on Earl Ave, right on Sevier Ave, to the regular route. \n\nInbound from Sevier Ave, left on Earl St, left on South Haven, to the regular route.\n\nPassengers, please board at the corner of Earl and Sevier Ave. ",
     "effect": "UNKNOWN_EFFECT",
     "header": "Detour for Route 40: South Knoxville ",
     "route_id": null,
-    "stop_id": "7025186"
+    "stop_id": "7025374"
   },
   {
     "alert_id": "69778",
     "cause": "UNKNOWN_CAUSE",
-    "description": "Due to construction on Sevier at McClung, Route 40 will be on a long-term detour until September 25.\n\nOutbound from Sevier, left on Wynn, left on Moody to the regular route.\n\nInbound from Moody, right on Wynn, right on Sevier, to the regular route.\n\nPassengers, please wait for the bus at the corner of Sevier and Wynn or Moody and Davenport. ",
+    "description": "Due to construction on Sevier Ave from Earl Ave to Trotter Ave, Route 40 will be on detour. \n\nOutbound from South Haven, turn right on Earl Ave, right on Sevier Ave, to the regular route. \n\nInbound from Sevier Ave, left on Earl St, left on South Haven, to the regular route.\n\nPassengers, please board at the corner of Earl and Sevier Ave. ",
     "effect": "UNKNOWN_EFFECT",
     "header": "Detour for Route 40: South Knoxville ",
     "route_id": null,
-    "stop_id": "7025370"
-  },
-  {
-    "alert_id": "69778",
-    "cause": "UNKNOWN_CAUSE",
-    "description": "Due to construction on Sevier at McClung, Route 40 will be on a long-term detour until September 25.\n\nOutbound from Sevier, left on Wynn, left on Moody to the regular route.\n\nInbound from Moody, right on Wynn, right on Sevier, to the regular route.\n\nPassengers, please wait for the bus at the corner of Sevier and Wynn or Moody and Davenport. ",
-    "effect": "UNKNOWN_EFFECT",
-    "header": "Detour for Route 40: South Knoxville ",
-    "route_id": null,
-    "stop_id": "7025371"
+    "stop_id": "7025181"
   },
   {
     "alert_id": "71160",
