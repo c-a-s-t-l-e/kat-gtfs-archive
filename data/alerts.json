@@ -79,5 +79,41 @@
     "header": "Detour for Route 40: South Knoxville ",
     "route_id": null,
     "stop_id": "7025181"
+  },
+  {
+    "alert_id": "71385",
+    "cause": "CONSTRUCTION",
+    "description": "Due to construction, Route 31 will be on a long-term detour. \n\nThe outbound trip will be as follows: From Holston/Kirkwood, left onto Prosser, right onto Asheville Hwy, right onto Park St, left onto Holston, into the regular route. \n\nThe inbound routing from Holston will be right onto Park St, left onto Asheville Hwy, left onto Prosser, right onto Holston/Kirkwood, into the regular route. ",
+    "effect": "DETOUR",
+    "header": "Detour for Route 31: Magnolia",
+    "route_id": "5571",
+    "stop_id": null
+  },
+  {
+    "alert_id": "71385",
+    "cause": "CONSTRUCTION",
+    "description": "Due to construction, Route 31 will be on a long-term detour. \n\nThe outbound trip will be as follows: From Holston/Kirkwood, left onto Prosser, right onto Asheville Hwy, right onto Park St, left onto Holston, into the regular route. \n\nThe inbound routing from Holston will be right onto Park St, left onto Asheville Hwy, left onto Prosser, right onto Holston/Kirkwood, into the regular route. ",
+    "effect": "DETOUR",
+    "header": "Detour for Route 31: Magnolia",
+    "route_id": null,
+    "stop_id": "7022358"
+  },
+  {
+    "alert_id": "71386",
+    "cause": "CONSTRUCTION",
+    "description": "Due to construction, Route 32 will be on a long-term detour. \n\nThe outbound routing will be as follows:\nFrom Oakland, left onto Ashland, right onto Andes, right onto MLK, left onto Lakeside, right onto Magnolia, right onto Prosser, right onto Holston/Kirkwood. \n\nThe inbound trip will be as follows: From Kirkwood, left on Magnolia, left on Lakeside, left on Andes, left on Ashland, right on Oakland, to the regular route. ",
+    "effect": "DETOUR",
+    "header": "Detour for Route 32: Dandridge Ave",
+    "route_id": "5572",
+    "stop_id": null
+  },
+  {
+    "alert_id": "71387",
+    "cause": "CONSTRUCTION",
+    "description": "Due to construction, Route 34 will be on detour.\n\nOutbound from MLK, left on Lakeside, right on Magnolia, left on Kirkwood, left on Holston, left on Prosser, right on Asheville Hwy to regular route.\n\nInbound from Asheville Hwy, left on Prosser, right on Holston, right on Kirkwood, left on Magnolia, left on Lakeside, right on MLK to the regular route. ",
+    "effect": "DETOUR",
+    "header": "Detour for Route 34: Burlington Shopper",
+    "route_id": "5574",
+    "stop_id": null
   }
 ]
