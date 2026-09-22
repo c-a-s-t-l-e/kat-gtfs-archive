@@ -79,50 +79,5 @@
     "header": "Detour for Route 40: South Knoxville ",
     "route_id": null,
     "stop_id": "7025181"
-  },
-  {
-    "alert_id": "71160",
-    "cause": "CONSTRUCTION",
-    "description": "Due to the closure of Texas Ave, Route 12 will be detoured on 9/21 from 8:00 AM to 4:00 PM.\n\nInbound: From Western, right onto Industrial Parkway, right onto East Industrial Parkway, right onto Sycamore, right onto McPherson, left onto Texas, to the regular route. \n\nOutbound: From Texas, right onto McPherson, left onto Sycamore, left onto East Industrial Parkway, left onto Industrial Parkway, left onto Texas, to the regular route. ",
-    "effect": "DETOUR",
-    "header": "Detour for Route 12: Western Ave",
-    "route_id": "5560",
-    "stop_id": null
-  },
-  {
-    "alert_id": "71160",
-    "cause": "CONSTRUCTION",
-    "description": "Due to the closure of Texas Ave, Route 12 will be detoured on 9/21 from 8:00 AM to 4:00 PM.\n\nInbound: From Western, right onto Industrial Parkway, right onto East Industrial Parkway, right onto Sycamore, right onto McPherson, left onto Texas, to the regular route. \n\nOutbound: From Texas, right onto McPherson, left onto Sycamore, left onto East Industrial Parkway, left onto Industrial Parkway, left onto Texas, to the regular route. ",
-    "effect": "DETOUR",
-    "header": "Detour for Route 12: Western Ave",
-    "route_id": null,
-    "stop_id": "7010446"
-  },
-  {
-    "alert_id": "71160",
-    "cause": "CONSTRUCTION",
-    "description": "Due to the closure of Texas Ave, Route 12 will be detoured on 9/21 from 8:00 AM to 4:00 PM.\n\nInbound: From Western, right onto Industrial Parkway, right onto East Industrial Parkway, right onto Sycamore, right onto McPherson, left onto Texas, to the regular route. \n\nOutbound: From Texas, right onto McPherson, left onto Sycamore, left onto East Industrial Parkway, left onto Industrial Parkway, left onto Texas, to the regular route. ",
-    "effect": "DETOUR",
-    "header": "Detour for Route 12: Western Ave",
-    "route_id": null,
-    "stop_id": "7010914"
-  },
-  {
-    "alert_id": "71160",
-    "cause": "CONSTRUCTION",
-    "description": "Due to the closure of Texas Ave, Route 12 will be detoured on 9/21 from 8:00 AM to 4:00 PM.\n\nInbound: From Western, right onto Industrial Parkway, right onto East Industrial Parkway, right onto Sycamore, right onto McPherson, left onto Texas, to the regular route. \n\nOutbound: From Texas, right onto McPherson, left onto Sycamore, left onto East Industrial Parkway, left onto Industrial Parkway, left onto Texas, to the regular route. ",
-    "effect": "DETOUR",
-    "header": "Detour for Route 12: Western Ave",
-    "route_id": null,
-    "stop_id": "9432798"
-  },
-  {
-    "alert_id": "71160",
-    "cause": "CONSTRUCTION",
-    "description": "Due to the closure of Texas Ave, Route 12 will be detoured on 9/21 from 8:00 AM to 4:00 PM.\n\nInbound: From Western, right onto Industrial Parkway, right onto East Industrial Parkway, right onto Sycamore, right onto McPherson, left onto Texas, to the regular route. \n\nOutbound: From Texas, right onto McPherson, left onto Sycamore, left onto East Industrial Parkway, left onto Industrial Parkway, left onto Texas, to the regular route. ",
-    "effect": "DETOUR",
-    "header": "Detour for Route 12: Western Ave",
-    "route_id": null,
-    "stop_id": "7010443"
   }
 ]
