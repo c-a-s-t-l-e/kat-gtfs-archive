@@ -124,5 +124,14 @@
     "header": "Detour for Route 31: Magnolia Ave",
     "route_id": "5571",
     "stop_id": null
+  },
+  {
+    "alert_id": "71528",
+    "cause": "OTHER_CAUSE",
+    "description": "Due to increased congestion at  Gate 21, Route 44 will be on a slight detour and dropping off curbside at Gate 21. \n\nOutbound: From Cumberland, left on Volunteer, left on Manning, left on Fulmer, to Gate 21 curbside. \n\nInbound: Regular Route ",
+    "effect": "DETOUR",
+    "header": "Detour for Route 44: Knox Row",
+    "route_id": "5578",
+    "stop_id": null
   }
 ]
