@@ -36,51 +36,6 @@
     "stop_id": "7025369"
   },
   {
-    "alert_id": "69778",
-    "cause": "UNKNOWN_CAUSE",
-    "description": "Due to construction on Sevier Ave from Earl Ave to Trotter Ave, Route 40 will be on detour. \n\nOutbound from South Haven, turn right on Earl Ave, right on Sevier Ave, to the regular route. \n\nInbound from Sevier Ave, left on Earl St, left on South Haven, to the regular route.\n\nPassengers, please board at the corner of Earl and Sevier Ave. ",
-    "effect": "UNKNOWN_EFFECT",
-    "header": "Detour for Route 40: South Knoxville ",
-    "route_id": "5575",
-    "stop_id": null
-  },
-  {
-    "alert_id": "69778",
-    "cause": "UNKNOWN_CAUSE",
-    "description": "Due to construction on Sevier Ave from Earl Ave to Trotter Ave, Route 40 will be on detour. \n\nOutbound from South Haven, turn right on Earl Ave, right on Sevier Ave, to the regular route. \n\nInbound from Sevier Ave, left on Earl St, left on South Haven, to the regular route.\n\nPassengers, please board at the corner of Earl and Sevier Ave. ",
-    "effect": "UNKNOWN_EFFECT",
-    "header": "Detour for Route 40: South Knoxville ",
-    "route_id": null,
-    "stop_id": "7025182"
-  },
-  {
-    "alert_id": "69778",
-    "cause": "UNKNOWN_CAUSE",
-    "description": "Due to construction on Sevier Ave from Earl Ave to Trotter Ave, Route 40 will be on detour. \n\nOutbound from South Haven, turn right on Earl Ave, right on Sevier Ave, to the regular route. \n\nInbound from Sevier Ave, left on Earl St, left on South Haven, to the regular route.\n\nPassengers, please board at the corner of Earl and Sevier Ave. ",
-    "effect": "UNKNOWN_EFFECT",
-    "header": "Detour for Route 40: South Knoxville ",
-    "route_id": null,
-    "stop_id": "7025373"
-  },
-  {
-    "alert_id": "69778",
-    "cause": "UNKNOWN_CAUSE",
-    "description": "Due to construction on Sevier Ave from Earl Ave to Trotter Ave, Route 40 will be on detour. \n\nOutbound from South Haven, turn right on Earl Ave, right on Sevier Ave, to the regular route. \n\nInbound from Sevier Ave, left on Earl St, left on South Haven, to the regular route.\n\nPassengers, please board at the corner of Earl and Sevier Ave. ",
-    "effect": "UNKNOWN_EFFECT",
-    "header": "Detour for Route 40: South Knoxville ",
-    "route_id": null,
-    "stop_id": "7025374"
-  },
-  {
-    "alert_id": "69778",
-    "cause": "UNKNOWN_CAUSE",
-    "description": "Due to construction on Sevier Ave from Earl Ave to Trotter Ave, Route 40 will be on detour. \n\nOutbound from South Haven, turn right on Earl Ave, right on Sevier Ave, to the regular route. \n\nInbound from Sevier Ave, left on Earl St, left on South Haven, to the regular route.\n\nPassengers, please board at the corner of Earl and Sevier Ave. ",
-    "effect": "UNKNOWN_EFFECT",
-    "header": "Detour for Route 40: South Knoxville ",
-    "route_id": null,
-    "stop_id": "7025181"
-  },
-  {
     "alert_id": "71387",
     "cause": "CONSTRUCTION",
     "description": "Due to construction, Route 34 will be on detour.\n\nOutbound from MLK, left on Lakeside, right on Magnolia, left on Kirkwood, left on Holston, left on Prosser, right on Asheville Hwy to regular route.\n\nInbound from Asheville Hwy, left on Prosser, right on Holston, right on Kirkwood, left on Magnolia, left on Lakeside, right on MLK to the regular route. ",
