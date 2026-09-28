@@ -70,5 +70,77 @@
     "header": "Detour for Route 31: Magnolia Ave",
     "route_id": "5571",
     "stop_id": null
+  },
+  {
+    "alert_id": "71744",
+    "cause": "CONSTRUCTION",
+    "description": "Due to the closure of Sevier Ave at Trotter Ave, Route 40 will be detoured daily from 7:15 am to 5:15 pm until Friday, October 2nd. \n\nOutbound from South Haven, right on Earl Ave, right on Sevier Ave to the regular route. \n\nInbound from Sevier Ave, left on Earl Ave, left on South Haven to the regular route. ",
+    "effect": "DETOUR",
+    "header": "Detour for Route 40: South Knoxville",
+    "route_id": "5575",
+    "stop_id": null
+  },
+  {
+    "alert_id": "71744",
+    "cause": "CONSTRUCTION",
+    "description": "Due to the closure of Sevier Ave at Trotter Ave, Route 40 will be detoured daily from 7:15 am to 5:15 pm until Friday, October 2nd. \n\nOutbound from South Haven, right on Earl Ave, right on Sevier Ave to the regular route. \n\nInbound from Sevier Ave, left on Earl Ave, left on South Haven to the regular route. ",
+    "effect": "DETOUR",
+    "header": "Detour for Route 40: South Knoxville",
+    "route_id": null,
+    "stop_id": "7025181"
+  },
+  {
+    "alert_id": "71744",
+    "cause": "CONSTRUCTION",
+    "description": "Due to the closure of Sevier Ave at Trotter Ave, Route 40 will be detoured daily from 7:15 am to 5:15 pm until Friday, October 2nd. \n\nOutbound from South Haven, right on Earl Ave, right on Sevier Ave to the regular route. \n\nInbound from Sevier Ave, left on Earl Ave, left on South Haven to the regular route. ",
+    "effect": "DETOUR",
+    "header": "Detour for Route 40: South Knoxville",
+    "route_id": null,
+    "stop_id": "7025374"
+  },
+  {
+    "alert_id": "71744",
+    "cause": "CONSTRUCTION",
+    "description": "Due to the closure of Sevier Ave at Trotter Ave, Route 40 will be detoured daily from 7:15 am to 5:15 pm until Friday, October 2nd. \n\nOutbound from South Haven, right on Earl Ave, right on Sevier Ave to the regular route. \n\nInbound from Sevier Ave, left on Earl Ave, left on South Haven to the regular route. ",
+    "effect": "DETOUR",
+    "header": "Detour for Route 40: South Knoxville",
+    "route_id": null,
+    "stop_id": "7025373"
+  },
+  {
+    "alert_id": "71744",
+    "cause": "CONSTRUCTION",
+    "description": "Due to the closure of Sevier Ave at Trotter Ave, Route 40 will be detoured daily from 7:15 am to 5:15 pm until Friday, October 2nd. \n\nOutbound from South Haven, right on Earl Ave, right on Sevier Ave to the regular route. \n\nInbound from Sevier Ave, left on Earl Ave, left on South Haven to the regular route. ",
+    "effect": "DETOUR",
+    "header": "Detour for Route 40: South Knoxville",
+    "route_id": null,
+    "stop_id": "7025182"
+  },
+  {
+    "alert_id": "71746",
+    "cause": "CONSTRUCTION",
+    "description": "Due to the cloure of Willow Ave at Stadium Way, Route 1 will be on a detour from 6:30 pm until the end of service. \n\nOutbound from Summit Hill, left on S Central St, left on Depot Ave to the regular inbound routing. ",
+    "effect": "DETOUR",
+    "header": "Detour for Route 1: Downtown Connector",
+    "route_id": "6346",
+    "stop_id": null
+  },
+  {
+    "alert_id": "71746",
+    "cause": "CONSTRUCTION",
+    "description": "Due to the cloure of Willow Ave at Stadium Way, Route 1 will be on a detour from 6:30 pm until the end of service. \n\nOutbound from Summit Hill, left on S Central St, left on Depot Ave to the regular inbound routing. ",
+    "effect": "DETOUR",
+    "header": "Detour for Route 1: Downtown Connector",
+    "route_id": null,
+    "stop_id": "10878973"
+  },
+  {
+    "alert_id": "71746",
+    "cause": "CONSTRUCTION",
+    "description": "Due to the cloure of Willow Ave at Stadium Way, Route 1 will be on a detour from 6:30 pm until the end of service. \n\nOutbound from Summit Hill, left on S Central St, left on Depot Ave to the regular inbound routing. ",
+    "effect": "DETOUR",
+    "header": "Detour for Route 1: Downtown Connector",
+    "route_id": null,
+    "stop_id": "11081684"
   }
 ]
