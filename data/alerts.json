@@ -115,5 +115,14 @@
     "header": "Detour for Route 40: South Knoxville",
     "route_id": null,
     "stop_id": "7025182"
+  },
+  {
+    "alert_id": "71872",
+    "cause": "UNKNOWN_CAUSE",
+    "description": "Due to the closure of Chickamauga at Metler, Route 24 will be detoured until approximately 5:15 pm. \n\nOutbound from Chickamauga Ave, left on McMurray St, right on Cedar Ave, right on Bruhin Rd to the regular route. \n\nInbound from Bruhin Rd, left on Atlantic Ave, left on McMurray St, right on Chickamauga Ave to the regular route.\n",
+    "effect": "DETOUR",
+    "header": "Detour for Route 24: Lincoln Park/Inskip",
+    "route_id": "5569",
+    "stop_id": null
   }
 ]
