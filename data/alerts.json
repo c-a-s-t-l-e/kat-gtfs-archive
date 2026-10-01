@@ -72,15 +72,6 @@
     "stop_id": null
   },
   {
-    "alert_id": "71872",
-    "cause": "UNKNOWN_CAUSE",
-    "description": "Due to the closure of Chickamauga at Metler, Route 24 will be detoured until approximately 5:15 pm. \n\nOutbound from Chickamauga Ave, left on McMurray St, right on Cedar Ave, right on Bruhin Rd to the regular route. \n\nInbound from Bruhin Rd, left on Atlantic Ave, left on McMurray St, right on Chickamauga Ave to the regular route.\n",
-    "effect": "DETOUR",
-    "header": "Detour for Route 24: Lincoln Park/Inskip",
-    "route_id": "5569",
-    "stop_id": null
-  },
-  {
     "alert_id": "71909",
     "cause": "CONSTRUCTION",
     "description": "Due to the closure of Sevier Ave from McClung to Allen Street, Route 40 will be detoured daily from 7:15 am to 5:15 pm. \n\nOutbound from Sevier Ave, left on Wynn, left on Moody to the regular route. \n\nInbound from Moody, right on Wynn, right on Sevier, to the regular route. ",
