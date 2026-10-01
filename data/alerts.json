@@ -79,5 +79,32 @@
     "header": "Detour for Route 40: South Knoxville",
     "route_id": "5575",
     "stop_id": null
+  },
+  {
+    "alert_id": "71963",
+    "cause": "OTHER_CAUSE",
+    "description": "Due to the closure of Gay Street from Church Ave to Clinch Ave, Route 1 will be on detour from 1:15 PM to 4:45 PM.\n\nOutbound from Hill Ave, right on State St, left on Summit Hill, to the regular route. \n\nInbound will be regular routing.",
+    "effect": "DETOUR",
+    "header": "Detour for Route 1: Downtown Connector",
+    "route_id": "6346",
+    "stop_id": null
+  },
+  {
+    "alert_id": "71963",
+    "cause": "OTHER_CAUSE",
+    "description": "Due to the closure of Gay Street from Church Ave to Clinch Ave, Route 1 will be on detour from 1:15 PM to 4:45 PM.\n\nOutbound from Hill Ave, right on State St, left on Summit Hill, to the regular route. \n\nInbound will be regular routing.",
+    "effect": "DETOUR",
+    "header": "Detour for Route 1: Downtown Connector",
+    "route_id": null,
+    "stop_id": "7028983"
+  },
+  {
+    "alert_id": "71963",
+    "cause": "OTHER_CAUSE",
+    "description": "Due to the closure of Gay Street from Church Ave to Clinch Ave, Route 1 will be on detour from 1:15 PM to 4:45 PM.\n\nOutbound from Hill Ave, right on State St, left on Summit Hill, to the regular route. \n\nInbound will be regular routing.",
+    "effect": "DETOUR",
+    "header": "Detour for Route 1: Downtown Connector",
+    "route_id": null,
+    "stop_id": "9417088"
   }
 ]
