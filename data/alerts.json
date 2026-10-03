@@ -70,14 +70,5 @@
     "header": "Detour for Route 31: Magnolia Ave",
     "route_id": "5571",
     "stop_id": null
-  },
-  {
-    "alert_id": "71909",
-    "cause": "CONSTRUCTION",
-    "description": "Due to the closure of Sevier Ave from McClung to Allen Street, Route 40 will be detoured daily from 7:15 am to 5:15 pm. \n\nOutbound from Sevier Ave, left on Wynn, left on Moody to the regular route. \n\nInbound from Moody, right on Wynn, right on Sevier, to the regular route. ",
-    "effect": "DETOUR",
-    "header": "Detour for Route 40: South Knoxville",
-    "route_id": "5575",
-    "stop_id": null
   }
 ]
