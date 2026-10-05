@@ -70,5 +70,41 @@
     "header": "Detour for Route 31: Magnolia Ave",
     "route_id": "5571",
     "stop_id": null
+  },
+  {
+    "alert_id": "72123",
+    "cause": "CONSTRUCTION",
+    "description": "Due to the closure of 11th Street, Route 42 will be detoured through Saturday, October 10 at 6 PM.\n\nInbound from 17th Street, left on Cumberland, into Main Street, left on State St, right on Church Ave to Knoxville Station.\n\nOutbound is on the regular route.",
+    "effect": "DETOUR",
+    "header": "Detour for Route 42: Fort Sanders/UT Medical Centers",
+    "route_id": "5577",
+    "stop_id": null
+  },
+  {
+    "alert_id": "72123",
+    "cause": "CONSTRUCTION",
+    "description": "Due to the closure of 11th Street, Route 42 will be detoured through Saturday, October 10 at 6 PM.\n\nInbound from 17th Street, left on Cumberland, into Main Street, left on State St, right on Church Ave to Knoxville Station.\n\nOutbound is on the regular route.",
+    "effect": "DETOUR",
+    "header": "Detour for Route 42: Fort Sanders/UT Medical Centers",
+    "route_id": null,
+    "stop_id": "7027165"
+  },
+  {
+    "alert_id": "72123",
+    "cause": "CONSTRUCTION",
+    "description": "Due to the closure of 11th Street, Route 42 will be detoured through Saturday, October 10 at 6 PM.\n\nInbound from 17th Street, left on Cumberland, into Main Street, left on State St, right on Church Ave to Knoxville Station.\n\nOutbound is on the regular route.",
+    "effect": "DETOUR",
+    "header": "Detour for Route 42: Fort Sanders/UT Medical Centers",
+    "route_id": null,
+    "stop_id": "7027166"
+  },
+  {
+    "alert_id": "72123",
+    "cause": "CONSTRUCTION",
+    "description": "Due to the closure of 11th Street, Route 42 will be detoured through Saturday, October 10 at 6 PM.\n\nInbound from 17th Street, left on Cumberland, into Main Street, left on State St, right on Church Ave to Knoxville Station.\n\nOutbound is on the regular route.",
+    "effect": "DETOUR",
+    "header": "Detour for Route 42: Fort Sanders/UT Medical Centers",
+    "route_id": null,
+    "stop_id": "7026403"
   }
 ]
