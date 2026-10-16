@@ -1,54 +1,54 @@
 [
   {
-    "bearing": 100.5884017944336,
+    "bearing": 81.0,
     "current_status": null,
     "current_stop_sequence": null,
-    "latitude": 35.960728,
-    "longitude": -83.89711,
-    "msg_timestamp": "2026-10-15T22:26:43+00:00",
+    "latitude": 35.978436,
+    "longitude": -83.913765,
+    "msg_timestamp": "2026-10-16T09:08:57+00:00",
     "route_id": "",
-    "speed_mph": 32.0,
-    "trip_id": "40024",
-    "vehicle_id": "11509",
-    "vehicle_label": "Spare 2"
+    "speed_mph": 0.0,
+    "trip_id": "34001",
+    "vehicle_id": "10617",
+    "vehicle_label": "3514"
   },
   {
     "bearing": 0.0,
     "current_status": null,
     "current_stop_sequence": null,
-    "latitude": 35.978779,
-    "longitude": -83.913231,
-    "msg_timestamp": "2026-10-16T02:53:33+00:00",
+    "latitude": 36.03043,
+    "longitude": -83.867752,
+    "msg_timestamp": "2026-10-16T09:08:57+00:00",
     "route_id": "",
     "speed_mph": 0.0,
-    "trip_id": "16031",
-    "vehicle_id": "7492",
-    "vehicle_label": "4022"
+    "trip_id": "15001",
+    "vehicle_id": "7486",
+    "vehicle_label": "3013"
   },
   {
-    "bearing": 233.0,
+    "bearing": 176.0,
     "current_status": null,
     "current_stop_sequence": null,
-    "latitude": 35.979881,
-    "longitude": -83.913742,
-    "msg_timestamp": "2026-10-16T01:40:06+00:00",
-    "route_id": "",
-    "speed_mph": 8.0,
-    "trip_id": "15060",
-    "vehicle_id": "7527",
-    "vehicle_label": "3014"
-  },
-  {
-    "bearing": 218.98602294921875,
-    "current_status": null,
-    "current_stop_sequence": null,
-    "latitude": 35.964622,
-    "longitude": -83.915062,
-    "msg_timestamp": "2026-10-15T12:17:22+00:00",
+    "latitude": 35.979019,
+    "longitude": -83.913712,
+    "msg_timestamp": "2026-10-16T09:08:56+00:00",
     "route_id": "",
     "speed_mph": 0.0,
-    "trip_id": "20012",
-    "vehicle_id": "7533",
-    "vehicle_label": "4024"
+    "trip_id": "22001",
+    "vehicle_id": "7519",
+    "vehicle_label": "5008"
+  },
+  {
+    "bearing": 0.0,
+    "current_status": null,
+    "current_stop_sequence": null,
+    "latitude": 35.978821,
+    "longitude": -83.913261,
+    "msg_timestamp": "2026-10-16T09:08:57+00:00",
+    "route_id": "",
+    "speed_mph": 3.0,
+    "trip_id": "20001",
+    "vehicle_id": "7539",
+    "vehicle_label": "4037"
   }
 ]
