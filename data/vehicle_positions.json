@@ -1,28 +1,67 @@
 [
   {
-    "bearing": 0.0,
+    "bearing": 158.0,
     "current_status": null,
     "current_stop_sequence": null,
-    "latitude": 35.978416,
-    "longitude": -83.913849,
-    "msg_timestamp": "2026-10-17T03:34:20+00:00",
+    "latitude": 35.978447,
+    "longitude": -83.912857,
+    "msg_timestamp": "2026-10-17T10:21:08+00:00",
     "route_id": "",
-    "speed_mph": 0.0,
-    "trip_id": "42068",
-    "vehicle_id": "7524",
-    "vehicle_label": "3019"
+    "speed_mph": 5.0,
+    "trip_id": "32031",
+    "vehicle_id": "7491",
+    "vehicle_label": "4032"
   },
   {
-    "bearing": 321.85284423828125,
+    "bearing": 196.0769805908203,
     "current_status": null,
     "current_stop_sequence": null,
-    "latitude": 35.978783,
-    "longitude": -83.92643,
-    "msg_timestamp": "2026-10-16T12:23:59+00:00",
+    "latitude": 35.984619,
+    "longitude": -83.922119,
+    "msg_timestamp": "2026-10-17T10:21:10+00:00",
     "route_id": "",
-    "speed_mph": 17.0,
-    "trip_id": "20012",
-    "vehicle_id": "7533",
-    "vehicle_label": "4024"
+    "speed_mph": 32.0,
+    "trip_id": "22072",
+    "vehicle_id": "7505",
+    "vehicle_label": "3501"
+  },
+  {
+    "bearing": null,
+    "current_status": null,
+    "current_stop_sequence": null,
+    "latitude": null,
+    "longitude": null,
+    "msg_timestamp": "2026-10-17T10:21:10.712859+00:00",
+    "route_id": "",
+    "speed_mph": null,
+    "trip_id": "15069",
+    "vehicle_id": "7527",
+    "vehicle_label": "3014"
+  },
+  {
+    "bearing": 61.0,
+    "current_status": null,
+    "current_stop_sequence": null,
+    "latitude": 36.005211,
+    "longitude": -83.878532,
+    "msg_timestamp": "2026-10-17T10:21:10+00:00",
+    "route_id": "",
+    "speed_mph": 62.0,
+    "trip_id": "22073",
+    "vehicle_id": "7532",
+    "vehicle_label": "4021"
+  },
+  {
+    "bearing": 323.0,
+    "current_status": null,
+    "current_stop_sequence": null,
+    "latitude": 36.021812,
+    "longitude": -83.994713,
+    "msg_timestamp": "2026-10-17T10:21:07+00:00",
+    "route_id": "",
+    "speed_mph": 39.0,
+    "trip_id": "20071",
+    "vehicle_id": "7539",
+    "vehicle_label": "4037"
   }
 ]
