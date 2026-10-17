@@ -54,24 +54,6 @@
     "stop_id": null
   },
   {
-    "alert_id": "72574",
-    "cause": "CONSTRUCTION",
-    "description": "Due to the closure of Fifth Ave, Route 16 will be on detour through October 9th. \n\nThis will impact the inbound routing only. \n\nInbound from Fifth Ave, right on Gay Street, left on Magnolia Ave, right on Hall of Fame, to Knoxville Station. ",
-    "effect": "DETOUR",
-    "header": "Detour for Route 16: Middlebrook/Cedar Bluff",
-    "route_id": "5562",
-    "stop_id": null
-  },
-  {
-    "alert_id": "72574",
-    "cause": "CONSTRUCTION",
-    "description": "Due to the closure of Fifth Ave, Route 16 will be on detour through October 9th. \n\nThis will impact the inbound routing only. \n\nInbound from Fifth Ave, right on Gay Street, left on Magnolia Ave, right on Hall of Fame, to Knoxville Station. ",
-    "effect": "DETOUR",
-    "header": "Detour for Route 16: Middlebrook/Cedar Bluff",
-    "route_id": null,
-    "stop_id": "7010943"
-  },
-  {
     "alert_id": "72908",
     "cause": "CONSTRUCTION",
     "description": "Due to the closure of Central at Corum for utility work, Route 20 will be on a detour from 8 am to 3 pm. \n\nOutbound from Central, right on Morelia, left on Pershing, left on Atlantic, right on Bruhin to the regular route. \n\nThe inbound routing wil reverse. ",
