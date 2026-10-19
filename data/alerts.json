@@ -52,32 +52,5 @@
     "header": "Detour for Route 31: Magnolia Ave",
     "route_id": "5571",
     "stop_id": null
-  },
-  {
-    "alert_id": "72908",
-    "cause": "CONSTRUCTION",
-    "description": "Due to the closure of Central at Corum for utility work, Route 20 will be on a detour from 8 am to 3 pm. \n\nOutbound from Central, right on Morelia, left on Pershing, left on Atlantic, right on Bruhin to the regular route. \n\nThe inbound routing wil reverse. ",
-    "effect": "DETOUR",
-    "header": "Detour for Route 20: Central/Clinton Hwy",
-    "route_id": "5565",
-    "stop_id": null
-  },
-  {
-    "alert_id": "72909",
-    "cause": "OTHER_CAUSE",
-    "description": "Due to the closure of Flag Circle at UT Medical Center on 10/17 and 10/18, the Route 42 stop will be temporarily located at Fountain Circle. \n\nThe stop is located at the end of the awning closest to the parking garage and will be marked by temporary bus stop signs. ",
-    "effect": "STOP_MOVED",
-    "header": "Temporary Stop Relocation: Route 42",
-    "route_id": "5577",
-    "stop_id": null
-  },
-  {
-    "alert_id": "72909",
-    "cause": "OTHER_CAUSE",
-    "description": "Due to the closure of Flag Circle at UT Medical Center on 10/17 and 10/18, the Route 42 stop will be temporarily located at Fountain Circle. \n\nThe stop is located at the end of the awning closest to the parking garage and will be marked by temporary bus stop signs. ",
-    "effect": "STOP_MOVED",
-    "header": "Temporary Stop Relocation: Route 42",
-    "route_id": null,
-    "stop_id": "7026907"
   }
 ]
