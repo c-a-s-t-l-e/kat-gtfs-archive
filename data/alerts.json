@@ -52,5 +52,86 @@
     "header": "Detour for Route 31: Magnolia Ave",
     "route_id": "5571",
     "stop_id": null
+  },
+  {
+    "alert_id": "73133",
+    "cause": "OTHER_CAUSE",
+    "description": "Due to the closure of Sevier Ave from Davenport to Dixie, Route 41 will be on detour from 4:00 pm to 9:00 pm. \n\nOutbound routing from Knoxville Station, right on Church Ave, left on Gay St, right on Cumberland Ave, left on Henley St, into Chapman Highway.\n\nInbound routing from Chapman Highway, into Henley St, right on Main St, left on State St, right on Church Ave, into Knoxville Station.",
+    "effect": "DETOUR",
+    "header": "Detour for Route 41: Chapman Hwy",
+    "route_id": "5576",
+    "stop_id": null
+  },
+  {
+    "alert_id": "73133",
+    "cause": "OTHER_CAUSE",
+    "description": "Due to the closure of Sevier Ave from Davenport to Dixie, Route 41 will be on detour from 4:00 pm to 9:00 pm. \n\nOutbound routing from Knoxville Station, right on Church Ave, left on Gay St, right on Cumberland Ave, left on Henley St, into Chapman Highway.\n\nInbound routing from Chapman Highway, into Henley St, right on Main St, left on State St, right on Church Ave, into Knoxville Station.",
+    "effect": "DETOUR",
+    "header": "Detour for Route 41: Chapman Hwy",
+    "route_id": null,
+    "stop_id": "7025167"
+  },
+  {
+    "alert_id": "73133",
+    "cause": "OTHER_CAUSE",
+    "description": "Due to the closure of Sevier Ave from Davenport to Dixie, Route 41 will be on detour from 4:00 pm to 9:00 pm. \n\nOutbound routing from Knoxville Station, right on Church Ave, left on Gay St, right on Cumberland Ave, left on Henley St, into Chapman Highway.\n\nInbound routing from Chapman Highway, into Henley St, right on Main St, left on State St, right on Church Ave, into Knoxville Station.",
+    "effect": "DETOUR",
+    "header": "Detour for Route 41: Chapman Hwy",
+    "route_id": null,
+    "stop_id": "7025388"
+  },
+  {
+    "alert_id": "73133",
+    "cause": "OTHER_CAUSE",
+    "description": "Due to the closure of Sevier Ave from Davenport to Dixie, Route 41 will be on detour from 4:00 pm to 9:00 pm. \n\nOutbound routing from Knoxville Station, right on Church Ave, left on Gay St, right on Cumberland Ave, left on Henley St, into Chapman Highway.\n\nInbound routing from Chapman Highway, into Henley St, right on Main St, left on State St, right on Church Ave, into Knoxville Station.",
+    "effect": "DETOUR",
+    "header": "Detour for Route 41: Chapman Hwy",
+    "route_id": null,
+    "stop_id": "7025168"
+  },
+  {
+    "alert_id": "73133",
+    "cause": "OTHER_CAUSE",
+    "description": "Due to the closure of Sevier Ave from Davenport to Dixie, Route 41 will be on detour from 4:00 pm to 9:00 pm. \n\nOutbound routing from Knoxville Station, right on Church Ave, left on Gay St, right on Cumberland Ave, left on Henley St, into Chapman Highway.\n\nInbound routing from Chapman Highway, into Henley St, right on Main St, left on State St, right on Church Ave, into Knoxville Station.",
+    "effect": "DETOUR",
+    "header": "Detour for Route 41: Chapman Hwy",
+    "route_id": null,
+    "stop_id": "7025387"
+  },
+  {
+    "alert_id": "73133",
+    "cause": "OTHER_CAUSE",
+    "description": "Due to the closure of Sevier Ave from Davenport to Dixie, Route 41 will be on detour from 4:00 pm to 9:00 pm. \n\nOutbound routing from Knoxville Station, right on Church Ave, left on Gay St, right on Cumberland Ave, left on Henley St, into Chapman Highway.\n\nInbound routing from Chapman Highway, into Henley St, right on Main St, left on State St, right on Church Ave, into Knoxville Station.",
+    "effect": "DETOUR",
+    "header": "Detour for Route 41: Chapman Hwy",
+    "route_id": null,
+    "stop_id": "9331160"
+  },
+  {
+    "alert_id": "73133",
+    "cause": "OTHER_CAUSE",
+    "description": "Due to the closure of Sevier Ave from Davenport to Dixie, Route 41 will be on detour from 4:00 pm to 9:00 pm. \n\nOutbound routing from Knoxville Station, right on Church Ave, left on Gay St, right on Cumberland Ave, left on Henley St, into Chapman Highway.\n\nInbound routing from Chapman Highway, into Henley St, right on Main St, left on State St, right on Church Ave, into Knoxville Station.",
+    "effect": "DETOUR",
+    "header": "Detour for Route 41: Chapman Hwy",
+    "route_id": null,
+    "stop_id": "9331150"
+  },
+  {
+    "alert_id": "73141",
+    "cause": "UNKNOWN_CAUSE",
+    "description": "Due to the closure of portions of Clinch Ave between 11th and 12th Street, Route 42 will be on a detour from 6:30 AM on October 26 until 5:00 PM on October 28.\n\nOutbound from Clinch Ave, Left on 11th, Right on Cumberland, Right on 16th, left on Clinch, to the regular route. \n\nInbound trips will be on the regular routing. ",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Detour for Route 42: Fort Sanders/UT Medical Centers",
+    "route_id": "5577",
+    "stop_id": null
+  },
+  {
+    "alert_id": "73141",
+    "cause": "UNKNOWN_CAUSE",
+    "description": "Due to the closure of portions of Clinch Ave between 11th and 12th Street, Route 42 will be on a detour from 6:30 AM on October 26 until 5:00 PM on October 28.\n\nOutbound from Clinch Ave, Left on 11th, Right on Cumberland, Right on 16th, left on Clinch, to the regular route. \n\nInbound trips will be on the regular routing. ",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Detour for Route 42: Fort Sanders/UT Medical Centers",
+    "route_id": null,
+    "stop_id": "7026901"
   }
 ]
