@@ -18,25 +18,12 @@
     "current_stop_sequence": null,
     "latitude": null,
     "longitude": null,
-    "msg_timestamp": "2026-10-25T04:52:34.948860+00:00",
+    "msg_timestamp": "2026-10-25T09:34:08.542671+00:00",
     "route_id": "",
     "speed_mph": null,
     "trip_id": "16034",
     "vehicle_id": "7531",
     "vehicle_label": "4015"
-  },
-  {
-    "bearing": 242.3346710205078,
-    "current_status": null,
-    "current_stop_sequence": null,
-    "latitude": 35.977345,
-    "longitude": -83.91227,
-    "msg_timestamp": "2026-10-25T03:53:55+00:00",
-    "route_id": "",
-    "speed_mph": 16.0,
-    "trip_id": "31184",
-    "vehicle_id": "7532",
-    "vehicle_label": "4021"
   },
   {
     "bearing": 299.241943359375,
