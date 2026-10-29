@@ -54,24 +54,6 @@
     "stop_id": null
   },
   {
-    "alert_id": "73141",
-    "cause": "UNKNOWN_CAUSE",
-    "description": "Due to the closure of portions of Clinch Ave between 11th and 12th Street, Route 42 will be on a detour from 6:30 AM on October 26 until 5:00 PM on October 28.\n\nOutbound from Clinch Ave, Left on 11th, Right on Cumberland, Right on 16th, left on Clinch, to the regular route. \n\nInbound trips will be on the regular routing. ",
-    "effect": "UNKNOWN_EFFECT",
-    "header": "Detour for Route 42: Fort Sanders/UT Medical Centers",
-    "route_id": "5577",
-    "stop_id": null
-  },
-  {
-    "alert_id": "73141",
-    "cause": "UNKNOWN_CAUSE",
-    "description": "Due to the closure of portions of Clinch Ave between 11th and 12th Street, Route 42 will be on a detour from 6:30 AM on October 26 until 5:00 PM on October 28.\n\nOutbound from Clinch Ave, Left on 11th, Right on Cumberland, Right on 16th, left on Clinch, to the regular route. \n\nInbound trips will be on the regular routing. ",
-    "effect": "UNKNOWN_EFFECT",
-    "header": "Detour for Route 42: Fort Sanders/UT Medical Centers",
-    "route_id": null,
-    "stop_id": "7026901"
-  },
-  {
     "alert_id": "73344",
     "cause": "CONSTRUCTION",
     "description": "Due to the closure of South Haven from McClung to W Gilbert, Route 40 will be on a weekday detour from 7:15 AM to 5:15 PM until November 6. \n\nOutbound from McClung, left on Hackman, right on W Gilbert, left on South Haven, to the regular route. \n\nInbound from South Haven, right on W Gilbert, left on Hackman, right on McClung, to the regular route. ",
