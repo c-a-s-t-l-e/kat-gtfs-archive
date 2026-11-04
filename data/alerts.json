@@ -88,5 +88,41 @@
     "header": "Detour for Route 40: South Knoxville",
     "route_id": null,
     "stop_id": "7025178"
+  },
+  {
+    "alert_id": "73862",
+    "cause": "UNKNOWN_CAUSE",
+    "description": "Due to the closure of Washington Pike at Washington Ridge Way, Route 23 will be on detour until approximately 4 pm. \n\nOutbound from Washington Pike, left on Cross Valley, right on Valley View, right on Washington Pike, left on Millertown Pike, to the regular route. \n\nInbound routing will follow the reverse of the above. \n\nPassengers at Alice Bell Road and R. Yoakley will need to board at the corner of Washington Pike and Cross Valley. ",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Detour for Route 23: Millertown",
+    "route_id": "5568",
+    "stop_id": null
+  },
+  {
+    "alert_id": "73862",
+    "cause": "UNKNOWN_CAUSE",
+    "description": "Due to the closure of Washington Pike at Washington Ridge Way, Route 23 will be on detour until approximately 4 pm. \n\nOutbound from Washington Pike, left on Cross Valley, right on Valley View, right on Washington Pike, left on Millertown Pike, to the regular route. \n\nInbound routing will follow the reverse of the above. \n\nPassengers at Alice Bell Road and R. Yoakley will need to board at the corner of Washington Pike and Cross Valley. ",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Detour for Route 23: Millertown",
+    "route_id": null,
+    "stop_id": "7023816"
+  },
+  {
+    "alert_id": "73862",
+    "cause": "UNKNOWN_CAUSE",
+    "description": "Due to the closure of Washington Pike at Washington Ridge Way, Route 23 will be on detour until approximately 4 pm. \n\nOutbound from Washington Pike, left on Cross Valley, right on Valley View, right on Washington Pike, left on Millertown Pike, to the regular route. \n\nInbound routing will follow the reverse of the above. \n\nPassengers at Alice Bell Road and R. Yoakley will need to board at the corner of Washington Pike and Cross Valley. ",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Detour for Route 23: Millertown",
+    "route_id": null,
+    "stop_id": "7018758"
+  },
+  {
+    "alert_id": "73862",
+    "cause": "UNKNOWN_CAUSE",
+    "description": "Due to the closure of Washington Pike at Washington Ridge Way, Route 23 will be on detour until approximately 4 pm. \n\nOutbound from Washington Pike, left on Cross Valley, right on Valley View, right on Washington Pike, left on Millertown Pike, to the regular route. \n\nInbound routing will follow the reverse of the above. \n\nPassengers at Alice Bell Road and R. Yoakley will need to board at the corner of Washington Pike and Cross Valley. ",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Detour for Route 23: Millertown",
+    "route_id": null,
+    "stop_id": "7019435"
   }
 ]
