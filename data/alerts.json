@@ -81,33 +81,6 @@
     "stop_id": "9416850"
   },
   {
-    "alert_id": "74284",
-    "cause": "CONSTRUCTION",
-    "description": "Due to the closure of Church Ave at Walnut St, Route 45 will be on detour until approximately 2 PM. \n\nOutbound from Church, left on Gay, right on Cumberland, left on Henley, to the regular route. \n\nInbound from Henley, right on Main, left on State, right on Church, to Knoxville Station. \n",
-    "effect": "DETOUR",
-    "header": "Detour for Route 45: Vestal",
-    "route_id": "5579",
-    "stop_id": null
-  },
-  {
-    "alert_id": "74285",
-    "cause": "CONSTRUCTION",
-    "description": "Due to the closure of Church Ave at Walnut St, Route 42 will be on detour until approximately 2:00 PM. \n\nOutbound from Church, left on Gay, right on Cumberland, right on 11th, left on Clinch to the regular route. \n\nInbound from Locust, left on Main, left on State, right on Church into Knoxville Station.",
-    "effect": "DETOUR",
-    "header": "Detour for Route 42: Fort Sanders/UT Hospital",
-    "route_id": "5577",
-    "stop_id": null
-  },
-  {
-    "alert_id": "74286",
-    "cause": "CONSTRUCTION",
-    "description": "Due to the closure of Church Ave at Walnut St, Route 22 will be on detour until approximately 2:15 PM. \n\nOutbound from Church, left on Gay, right on Cumberland, right on Henley, to the regular route.\n\nInbound from Henley, left on Main, left on State, right on Church to Knoxville Station. ",
-    "effect": "DETOUR",
-    "header": "Detour for Route 22: Broadway",
-    "route_id": "5567",
-    "stop_id": null
-  },
-  {
     "alert_id": "74291",
     "cause": "CONSTRUCTION",
     "description": "Due to the partial closure of Avenue A, Route 45 will be on detour through Friday at 5:15 PM. \n\nOutbound from Avenue A, left on Immanuel, right on Ogle, right on Martin Mill Pike, left on Young High Pike, to regular route. \n\nInbound from Young High Pike, right on Martin Mill Pike, left on Ogle, left on Immanuel, right on Avenue A, to the regular route. ",
