@@ -97,14 +97,5 @@
     "header": "Detour for Route 1: Downtown Connector",
     "route_id": null,
     "stop_id": "11084364"
-  },
-  {
-    "alert_id": "74440",
-    "cause": "CONSTRUCTION",
-    "description": "Due to the closure of Sevier Ave at Jones St, Route 41 will be on detour until further notice. \n\nOutbound from Knoxville Station, left on Locust, right on Cumberland, left on Henley into Chapman Highway.\n\nInbound from Chapman Highway into Henley, right on Main, left on State, to Knoxville Station. \n\nSupervisors will be monitoring closely.",
-    "effect": "DETOUR",
-    "header": "Detour for Route 41: Chapman Highway",
-    "route_id": "5576",
-    "stop_id": null
   }
 ]
