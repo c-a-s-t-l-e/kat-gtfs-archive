@@ -97,14 +97,5 @@
     "header": "Detour for Route 1: Downtown Connector",
     "route_id": null,
     "stop_id": "11084364"
-  },
-  {
-    "alert_id": "74547",
-    "cause": "CONSTRUCTION",
-    "description": "Due to the closure of Harvey Street past Caldwell Street, Route 24 will be on a short-term detour until approximately 12 PM.\n\nOutbound from Harvey, left on Caldwell, right on Hancock, right on Springdale, left on Harvey to the regular route. \n\nThe inbound routing will be from Harvey, right on Springdale, left on Hancock, left on Caldwell, right on Harvey to the regular route.",
-    "effect": "DETOUR",
-    "header": "Detour for Route 24: Lincoln Park/Inskip",
-    "route_id": "5569",
-    "stop_id": null
   }
 ]
