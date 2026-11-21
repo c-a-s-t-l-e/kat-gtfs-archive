@@ -1,41 +1,5 @@
 [
   {
-    "alert_id": "68121",
-    "cause": "OTHER_CAUSE",
-    "description": "While Knox County schools are in session, Route 40, South Knoxville, will be on a long-term detour, for the 2:15 trip, INBOUND ONLY, Monday through Friday.\n\nInbound from Moody Avenue, continue straight into Sevierville Pike, left on Compton Street, left on Haywood Avenue, left on Cottrell Street, left on Wynn, right on Moody Avenue to the regular route.",
-    "effect": "DETOUR",
-    "header": "Long -Term Detour for Route 40: South Knoxville",
-    "route_id": "5575",
-    "stop_id": null
-  },
-  {
-    "alert_id": "68121",
-    "cause": "OTHER_CAUSE",
-    "description": "While Knox County schools are in session, Route 40, South Knoxville, will be on a long-term detour, for the 2:15 trip, INBOUND ONLY, Monday through Friday.\n\nInbound from Moody Avenue, continue straight into Sevierville Pike, left on Compton Street, left on Haywood Avenue, left on Cottrell Street, left on Wynn, right on Moody Avenue to the regular route.",
-    "effect": "DETOUR",
-    "header": "Long -Term Detour for Route 40: South Knoxville",
-    "route_id": null,
-    "stop_id": "7025367"
-  },
-  {
-    "alert_id": "68121",
-    "cause": "OTHER_CAUSE",
-    "description": "While Knox County schools are in session, Route 40, South Knoxville, will be on a long-term detour, for the 2:15 trip, INBOUND ONLY, Monday through Friday.\n\nInbound from Moody Avenue, continue straight into Sevierville Pike, left on Compton Street, left on Haywood Avenue, left on Cottrell Street, left on Wynn, right on Moody Avenue to the regular route.",
-    "effect": "DETOUR",
-    "header": "Long -Term Detour for Route 40: South Knoxville",
-    "route_id": null,
-    "stop_id": "7025368"
-  },
-  {
-    "alert_id": "68121",
-    "cause": "OTHER_CAUSE",
-    "description": "While Knox County schools are in session, Route 40, South Knoxville, will be on a long-term detour, for the 2:15 trip, INBOUND ONLY, Monday through Friday.\n\nInbound from Moody Avenue, continue straight into Sevierville Pike, left on Compton Street, left on Haywood Avenue, left on Cottrell Street, left on Wynn, right on Moody Avenue to the regular route.",
-    "effect": "DETOUR",
-    "header": "Long -Term Detour for Route 40: South Knoxville",
-    "route_id": null,
-    "stop_id": "7025369"
-  },
-  {
     "alert_id": "71448",
     "cause": "CONSTRUCTION",
     "description": "Due to construction along sections of MLK Jr Ave, Route 32 will be on a long-term detour.\n\nOutbound from Oakland, right on MLK, left on Kirkwood to the Kirkwood Superstop.\n\nFrom the Kirkwood Superstop, left on Magnolia, left on Lakeside, left on MLK, right on Oakland to the regular route. \n\nThe Kirkwood Superstop is open!",
@@ -52,32 +16,5 @@
     "header": "Detour for Route 31: Magnolia Ave",
     "route_id": "5571",
     "stop_id": null
-  },
-  {
-    "alert_id": "74291",
-    "cause": "CONSTRUCTION",
-    "description": "Due to the partial closure of Avenue A, Route 45 will be on detour through Friday at 5:15 PM. \n\nOutbound from Avenue A, left on Immanuel, right on Ogle, right on Martin Mill Pike, left on Young High Pike, to regular route. \n\nInbound from Young High Pike, right on Martin Mill Pike, left on Ogle, left on Immanuel, right on Avenue A, to the regular route. ",
-    "effect": "DETOUR",
-    "header": "Detour for Route 45: Vestal",
-    "route_id": "5579",
-    "stop_id": null
-  },
-  {
-    "alert_id": "74291",
-    "cause": "CONSTRUCTION",
-    "description": "Due to the partial closure of Avenue A, Route 45 will be on detour through Friday at 5:15 PM. \n\nOutbound from Avenue A, left on Immanuel, right on Ogle, right on Martin Mill Pike, left on Young High Pike, to regular route. \n\nInbound from Young High Pike, right on Martin Mill Pike, left on Ogle, left on Immanuel, right on Avenue A, to the regular route. ",
-    "effect": "DETOUR",
-    "header": "Detour for Route 45: Vestal",
-    "route_id": null,
-    "stop_id": "7027908"
-  },
-  {
-    "alert_id": "74291",
-    "cause": "CONSTRUCTION",
-    "description": "Due to the partial closure of Avenue A, Route 45 will be on detour through Friday at 5:15 PM. \n\nOutbound from Avenue A, left on Immanuel, right on Ogle, right on Martin Mill Pike, left on Young High Pike, to regular route. \n\nInbound from Young High Pike, right on Martin Mill Pike, left on Ogle, left on Immanuel, right on Avenue A, to the regular route. ",
-    "effect": "DETOUR",
-    "header": "Detour for Route 45: Vestal",
-    "route_id": null,
-    "stop_id": "7028107"
   }
 ]
